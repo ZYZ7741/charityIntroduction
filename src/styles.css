@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f5f5dc;
+  padding: 50px;
+  color: #5c4033;
+}
+
+main {
+  padding: 20px;
+  background-color: #e0c6a0;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 3.5em; /* 增大主标题字体大小 */
+}
+
+.App-header p {
+  font-size: 2em; /* 增大副标题字体大小 */
+  margin-top: 10px; /* 为副标题增加上边距 */
+}
+
+main p {
+  font-size: 16px;
+  color: #5c4033;
+}
+.charity-section {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.charity-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+.conclusion-section {
+  margin: 30px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.qrcode-image {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 20px auto 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+#trigger {
+  height: 1px;
+  width: 100%;
+  background: transparent;
+  margin-top: -1px; /* Ensure it's right at the bottom */
+}
